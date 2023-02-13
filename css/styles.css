@@ -15,6 +15,54 @@ header {
   width: 100vw;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 1;
+}
+
+main {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  position: relative;
+  margin: 20px 10%;
+  padding: 5vw;
+  border: 5px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  width: 70%;
+  height: 50px;
+  border-radius: 7px;
+  background-color: rgb(228, 204, 238);
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  align-self: flex-start;
+  gap: 5px;
+  padding: 1px;
+}
+
+.tags li {
+  background-color: rgb(92, 89, 89);
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+li {
 }
 
 footer {
