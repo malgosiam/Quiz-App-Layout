@@ -20,6 +20,7 @@ header {
 
 main {
   padding-top: 30px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -68,9 +69,6 @@ button {
   padding: 5px;
 }
 
-li {
-}
-
 footer {
   background-color: rgb(198, 148, 222);
   position: fixed;
@@ -89,4 +87,21 @@ footer {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 10vw;
+}
+.badges {
+  display: flex;
+  gap: 2vw;
 }
