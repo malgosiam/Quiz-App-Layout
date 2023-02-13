@@ -1,1 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(198, 148, 222);
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
