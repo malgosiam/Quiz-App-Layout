@@ -3,13 +3,36 @@
 }
 
 body {
-  margin: 0px;
+  flex-direction: column;
+  margin: 80px 0 45px 0;
 }
 
 header {
   background-color: rgb(198, 148, 222);
+  position: fixed;
+  top: 0px;
+  height: 80px;
+  width: 100vw;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  background-color: rgb(198, 148, 222);
+  position: fixed;
+  bottom: 0px;
+  height: 80px;
+  width: 100vw;
   display: flex;
   justify-content: center;
-  height: 80px;
+  align-items: center;
+  gap: 10vw;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
