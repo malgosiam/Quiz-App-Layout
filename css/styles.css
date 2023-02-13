@@ -46,6 +46,12 @@ button {
   background-color: rgb(228, 204, 238);
 }
 
+.bookmark {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+
 .tags {
   display: flex;
   list-style: none;
