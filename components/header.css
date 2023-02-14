@@ -1,0 +1,10 @@
+header {
+  background-color: rgb(198, 148, 222);
+  position: fixed;
+  top: 0px;
+  height: 80px;
+  width: 100vw;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 1;
+}
