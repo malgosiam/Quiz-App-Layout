@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  margin: 80px 0 45px 0;
+}
