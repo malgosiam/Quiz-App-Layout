@@ -5,4 +5,11 @@
 body {
   flex-direction: column;
   margin: 80px 0 45px 0;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+body.dark {
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
