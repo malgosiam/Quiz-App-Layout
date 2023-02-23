@@ -16,3 +16,11 @@
   top: -20px;
   right: 0px;
 }
+
+.bookmark--active {
+  /*filter: invert(48%) sepia(13%) saturate(3000%) hue-rotate(130deg)
+    brightness(100%) contrast(30%);*/
+  background-color: blue;
+  color: violet;
+  border: 45px solid red;
+}

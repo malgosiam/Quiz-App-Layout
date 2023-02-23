@@ -1,8 +1,19 @@
 const body = document.querySelector("body");
-const toggle = document.querySelector(".toggle");
+const toggleButton = document.querySelector(".toggle");
 
-toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+//toggleButton.addEventListener("click", () => toggle.classList.toggle("active"));
 
-toggle.addEventListener("click", () => {
-  body.classList.toggle("dark");
+toggleButton.addEventListener("click", () => {
+  body.classList.toggle("dark", "active");
 });
+
+const bookmarkButton = document.querySelector('[data-js="bookmark-button"]');
+bookmarkButton.addEventListener("click", () => {
+  bookmarkButton.classList.toggle("bookmark--active");
+  console.log("Hallo");
+});
+console.log(bookmarkButton);
+//bookmarkButton.addEventListener("click", toggleBookmark);
+
+//function toggleBookmark() {
+//  bookmarkButton.classList.toggle("bookmark--active");
