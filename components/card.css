@@ -13,14 +13,16 @@
 
 .bookmark {
   position: absolute;
+  padding: 0;
   top: -20px;
   right: 0px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: white;
 }
 
 .bookmark--active {
-  /*filter: invert(48%) sepia(13%) saturate(3000%) hue-rotate(130deg)
-    brightness(100%) contrast(30%);*/
-  background-color: blue;
-  color: violet;
-  border: 45px solid red;
+  background-color: rgb(228, 204, 238);
+  border: 5px solid white;
 }
