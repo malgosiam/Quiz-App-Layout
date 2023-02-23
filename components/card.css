@@ -26,3 +26,11 @@
   background-color: rgb(228, 204, 238);
   border: 5px solid white;
 }
+
+.card__answer--active {
+  display: block;
+}
+
+.card__answer1 {
+  font-weight: bold;
+}

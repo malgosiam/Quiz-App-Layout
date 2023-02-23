@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   margin: 80px 0 45px 0;
   background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
   transition: all 0.3s ease-in-out;
 }
 
