@@ -2,7 +2,15 @@
   width: 70%;
   height: 50px;
   border-radius: 7px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
   background-color: rgb(228, 204, 238);
+}
+
+.button:hover {
+  background-color: rgb(63, 28, 95);
+  color: white;
+  transition: 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 .toggle {
